@@ -138,18 +138,16 @@ body {
 }
 
 @media (max-width: 640px) {
-
   .logo {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 24px;
   }
+}
 
+@media (min-width: 641px) {
   .signup-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
   }
 }
 
